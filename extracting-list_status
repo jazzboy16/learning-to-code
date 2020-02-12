@@ -1,0 +1,8 @@
+# Extracting 'list_status' from hicentral using existing Dimka
+
+# Add to line 116
+# List status from HiCentral
+list_status = soup.select('div.active-box')
+
+# In the line ads.append({ we add
+'list_status': List status,
